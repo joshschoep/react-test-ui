@@ -1,0 +1,30 @@
+article {
+    box-sizing: border-box;
+    background-color: white;
+    margin: auto;
+    max-width: 1440px; 
+    padding: 2rem 1rem;
+}
+
+.boxed {
+    box-sizing: border-box;
+    border: 1px solid #999;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+}
+
+p {
+    line-height: 133%;
+}
+
+ul.posts-list {
+    list-style: none;
+
+    li {
+        margin: 1.5rem 0px;
+    }
+
+    h2 {
+        margin-top: 0.5em;
+    }
+}
