@@ -5,3 +5,36 @@ body {
 h1,h2,h3,h4,h5,h6,p,a {
     font-weight: normal;
 }
+
+a,button { 
+    text-decoration: none;
+}
+
+article {
+    box-sizing: border-box;
+    background-color: white;
+    margin: auto;
+    max-width: 1440px; 
+    padding: 1rem 2rem;
+    padding-bottom: 5rem;
+}
+
+.loading { 
+    text-align: center;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+
+    img.spinner {
+        height: 12em;
+        animation: spin 3s linear infinite;
+    }
+
+    p {
+        font-size: 1.5em;
+    }
+}
+
+@keyframes spin {
+    from {transform:rotate(0deg);}
+    to {transform:rotate(360deg);}
+}
